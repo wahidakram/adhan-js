@@ -23,6 +23,7 @@
     "lint-fix": "npm-run-all -l -p lint-fix:* -s lint:tsc",
     "lint-fix:eslint": "eslint --max-warnings=0 --fix .",
     "commit": "cz",
+    "prepack": "npm run build",
     "prepare": "husky"
   },
   "repository": {
